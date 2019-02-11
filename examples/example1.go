@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	bot := slacker.NewClient("xoxp-548463018663-547303896739-547335940419-0945029f6591eea8d092f79400f78e0e")
+	bot := slacker.NewClient("<YOUR SLACK BOT TOKEN>")
 
 	definition := &slacker.CommandDefinition{
 		Handler: func(request slacker.Request, response slacker.ResponseWriter) {
