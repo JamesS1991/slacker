@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	bot := slacker.NewClient("xoxp-548463018663-547303896739-546679911856-81abd859899658d32760879779217461")
+	bot := slacker.NewClient("xoxp-548463018663-547303896739-547335940419-0945029f6591eea8d092f79400f78e0e")
 
 	definition := &slacker.CommandDefinition{
 		Handler: func(request slacker.Request, response slacker.ResponseWriter) {
